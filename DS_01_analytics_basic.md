@@ -1,4 +1,16 @@
 # Data Scientist. Аналитика. Начальный уровень
+## Материалы по данному блоку
+### Основы Python
+* [Python.org рекомендует: Программирование для НЕпрограммистов](https://m.habr.com/ru/company/skillfactory/blog/480898/)
+* Курсы на Stepik
+  * TODO - дописать отзыв по курсам, тех кто их проходил
+  * [Python для начинающих](https://stepik.org/course/58852/promo)
+  * [Python: основы и применение](https://stepik.org/course/512/promo)
+  * [Адаптивный тренажер Python](https://stepik.org/course/431/promo)
+  * [Программирование на Python](https://stepik.org/course/67/promo)
+* Сайты для тренировок:
+  * [Codewars: Achieve mastery through challenge](https://www.codewars.com/)
+  * [CheckiO - coding games and programming challenges](https://checkio.org/)
 
 ## Module 10 - Библиотека NumPy. Часть 1
 * Мера Жакара - «На самом деле в задании коэффициент Танимото, а не мера Жаккара. (Хоть первый и является расширением второго).»
