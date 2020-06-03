@@ -1,5 +1,10 @@
 # Skillbox data science FAQ unofficial
 
+# Оглавление
+* [Data Scientist. Аналитика. Начальный уровень](DS_01_analytics_basic.md)
+* [Data Scientist. ML. Начальный уровень](DS_01_ML_basic.md)
+* [Основы математики для Data Science](DS_01_math.md)
+
 Не официальный FAQ по курсу Data Science
 **Создан для:**
 * практики совместной работы,
@@ -9,7 +14,8 @@
 * другое, придумаем в процессе :)
 
 **Как читать FAQ:**
-* Для работы с FAQ вам нужно установить [git](https://git-scm.com/downloads)
+* Открывать можно и просто в браузере или приложении github.
+* Если хотите попрактиковаться с git, то вам нужно установить [приложение](https://git-scm.com/downloads)
 * После запустить git-bash (командная строка) и перейти в папку, в которой вы хотите расположить репозиторий (файлы)
   * В windows можно использовать контекстное меню (правая кнопка мыши в папке - "Git Bash Here")
   * [Как работать с bash](https://tproger.ru/translations/bash-cheatsheet/)
