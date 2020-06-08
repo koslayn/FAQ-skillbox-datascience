@@ -11,6 +11,7 @@
 * Сайты для тренировок:
   * [Codewars: Achieve mastery through challenge](https://www.codewars.com/)
   * [CheckiO - coding games and programming challenges](https://checkio.org/)
+* [Конспект по модулям - «Основы Python» by Andrew](ipynb/DS_01_analytics_basic_python.ipynb)
 
 
 ## Module 4 - Основы Python: базовые структуры данных
