@@ -16,3 +16,24 @@
 <img src='img/ml-04-MSE-gradient-ridge.jpg' alt="MSE(Gradient Ridge Regression)">  
   
 * Более подробно про то как работает градиент и регуляризацию есть в статье - [A Complete Tutorial on Ridge and Lasso Regression in Python](https://www.analyticsvidhya.com/blog/2016/01/ridge-lasso-regression-python-complete-tutorial/)
+
+
+## Module 5. Классификация. Часть 1
+Может возникнуть проблема с [graphviz](https://ru.wikipedia.org/wiki/Graphviz). Это целый пакет утилит для визуализации графов. При работе через Anaconda можно использовать следующее решение:
+* Первая команда установить пакет утилит, из основного репозитория.
+* Вторая команда установить обёртку вокруг них, чтобы можно было работать из python
+```bash
+        conda install -c anaconda graphviz
+        conda install -c conda-forge python-graphviz
+```
+* Альтернативным вариантом может быть использование [Google Colab](https://colab.research.google.com/)
+  * ❔Если у кого-то работает, подтвердите
+* Альтернативным вариантом может быть решение Михаила:
+  * Поставить утилиты с офицального сайта [graphviz](https://graphviz.org/)
+  * И после прописать путь в `PATH` к папке, где лежат утилиты.
+  * Или прописать `PATH` в блокноте Юпитера (Только вместо D:/Program Files (x86)/Graphviz2.38/bin/ указать ваш путь)  
+```python
+        import os
+        os.environ["PATH"] += os.pathsep + 'D:/Program Files (x86)/Graphviz2.38/bin/'
+```
+  * ❔Если у кого-то работает, подтвердите
