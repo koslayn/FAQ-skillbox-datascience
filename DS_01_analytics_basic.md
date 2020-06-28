@@ -34,6 +34,7 @@
 * Тут подразумевается просто отношение мощности пересечения к мощности объединения.
 
 ### Module 12 - Библиотека pandas. Часть 1
+* [Дополнительная практика - pandas](https://github.com/ajcr/100-pandas-puzzles/blob/master/100-pandas-puzzles.ipynb)
 
 #### Проблемы в модуле
 Проблема с загрузкой данных в формате numpy `"ValueError: Object arrays cannot be loaded when allow_pickle=False"`.  
