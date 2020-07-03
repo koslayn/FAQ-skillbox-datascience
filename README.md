@@ -1,6 +1,7 @@
 # Skillbox data science FAQ unofficial
 
 # Оглавление
+* [Дополнительные материалы (не связаны на прямую с курсом)](DS_extra_material.md)
 * [Data Scientist. Аналитика. Начальный уровень](DS_01_analytics_basic.md)
 * [Основы статистики и теории вероятностей](DS_01_statistics_and_probability_theory.md)
 * [Основы математики для Data Science](DS_01_math.md)
