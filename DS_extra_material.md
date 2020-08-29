@@ -28,3 +28,14 @@
     * `06b8394227e1` - id контейнера
     * всё что после `docker exec 06b8394227e1` - просто команды которые передаются в консоль контейнера
 * Установленное не сохранится после выключения контейнера, можно собрать контейнер под себя, с этим нужно разбираться.
+
+# Jupyter lab - Git - версионирование блокнотов
+Для Jupyter lab есть плагин, который позволяет работать с git.
+Плагин и инструкция по установке выложены на [github:  jupyterlab /
+jupyterlab-git](https://github.com/jupyterlab/jupyterlab-git)
+Также можно поставить из репозитория Anaconda:
+```
+conda install jupyterlab-git
+jupyter lab build
+```
+Для анаконды возможно придётся подключить сторонний репозиторий `conda-forge` - `conda config --add channels conda-forge`
