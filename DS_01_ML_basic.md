@@ -125,3 +125,17 @@ Thus in binary classification, the count of:
 <pre>
 От Андрея Макарова: `tn, fp, fn, tp = confusion_matrix(y_test, knc_predictions).ravel()`
 <details>
+
+### ДЗ-2 (2.3)
+Работа с `StratifiedKFold` - не самая очевидная. Ключевое о чём следует понимать:
+  * Создаём объект (**[генератор](https://webdevblog.ru/vvedenie-v-generatory-python/)**), который будет разделять данные на страты (части).
+  * Документация говорит следующее:*Generate test sets such that all contain the **same distribution** of classes, or **as close as possible**. Takes group information into account to avoid building folds with **imbalanced class distributions** (for binary or multiclass classification tasks). ... Be invariant to class label: relabelling y = ["Happy", "Sad"] to y = [1, 0] should not change the indices generated.*
+    * т.е. может применятся к не сбалансированным наборам данных, как в нашем случае в "Титанике"
+    * а также не чувствителен к названиям признаков (у нас данные в первой части ДЗ были уже подготовлены и сейчас этот для нас не важно)
+    * При желании можно сделать вот так: `for train_index, test_index in skf.split(X, y)`  
+  
+LogisticRegressionCV - аналог GridSearchCV, важные параметры:
+* **cv** - параметр, который определяет, как будет происходит разделение переданных данных `.fit(X, y)`. По умолчанию - передаёт данные в генератор k-folds т.е. если указать `cs=5` - 5ка пападёт в kfolds как параметр, при этом random_state не попадёт (про random_state - это не 100%) и разделения данных будут различаться и не будет учитвать не сбалансированность данных.
+* **verbose=True** - показывать ход выполнения операции (актуально если много вариантов перебирает).
+* **n_jobs = -1** - использовать все ядра процессора.
+* * **Cs** - ... method includes a parameter Cs. If supplied a list, Cs is the candidate hyperparameter values to select from. If supplied a integer, Cs a list of that many candidate values will is drawn from a **logarithmic scale** between 0.0001 and and 10000 (a range of reasonable values for C).
