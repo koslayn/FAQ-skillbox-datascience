@@ -124,7 +124,7 @@ Thus in binary classification, the count of:
   * false positives is :math:`C_{0,1}  
 <pre>
 От Андрея Макарова: `tn, fp, fn, tp = confusion_matrix(y_test, knc_predictions).ravel()`
-<details>
+</details>
 
 ### ДЗ-2 (2.3)
 Работа с `StratifiedKFold` - не самая очевидная. Ключевое о чём следует понимать:
