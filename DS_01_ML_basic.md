@@ -139,3 +139,7 @@ LogisticRegressionCV - аналог GridSearchCV, важные параметр�
 * **verbose=True** - показывать ход выполнения операции (актуально если много вариантов перебирает).
 * **n_jobs = -1** - использовать все ядра процессора.
 * * **Cs** - ... method includes a parameter Cs. If supplied a list, Cs is the candidate hyperparameter values to select from. If supplied a integer, Cs a list of that many candidate values will is drawn from a **logarithmic scale** between 0.0001 and and 10000 (a range of reasonable values for C).
+
+## Module 7. Кластеризация
+### Метод локтя - Elbow Method
+Есть готовая реализация в [библиотеке yellowbrick](https://www.scikit-yb.org/en/latest/api/cluster/elbow.html). Библиотека представляет из себя надстройку над sklearn и позволяет визуализировать данные для более удобного выбора модели и подбора гиперпарамептров.
