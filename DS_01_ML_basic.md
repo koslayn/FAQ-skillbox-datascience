@@ -147,6 +147,7 @@ LogisticRegressionCV - аналог GridSearchCV, важные параметр�
 ## Module 8. Дополнительные техники. Часть 1
 ### Вычислить определить матрици U
 * В python 3.8.5 считается с ошибкой - выдёт результат `0.9999`, правильный ответ `-1.0000`.
+* UPD: всё немного интереснее `SVD decomposition is not unique and I'm thinking maybe your different installations refer to different versions of BLAS` - [подробности](https://github.com/numpy/numpy/issues/17287)
 <details>
 <summary>Код с выводом:</summary>
 <img src='img/python_3-8-4.png'>  
