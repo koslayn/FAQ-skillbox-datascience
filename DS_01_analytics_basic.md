@@ -4,6 +4,26 @@
 * [Аналитика. Начальный уровень. Module 10-19](#analytics)
 
 ## <a id='basic'></a>**Основы Python. Module 1-9**
+### Конспекты лекций
+* [**Введение в Data Science (Data Analysis & Machine Learning**](ipynb/jun_anl_intro.ipynb)
+* [**Основы Python**](ipynb/python_basics)
+    <details>
+    <summary>Весь python в одном ноутбуке</summary>
+    
+    * [здесь все лекции в одном ноутбуке¹](ipynb/python_basics/Основы_Python.ipynb)
+    <hr>
+    
+    ¹**Внимание!** Ноутбук получился огромный по размеру и поэтому сильно тормозит при открытии. Поэтому был разбит на несколько тем.
+    </details>
+* [**Библиотека NumPy** (в pdf)](ipynb/numpy/Библиотека_NumPy.pdf)
+    * [Полезняшка от Виктории Борель](ipynb/numpy/size_ndim_shape.ipynb)
+    * [Ещё одна полезняшка по NumPy](ipynb/numpy/Занятие_2._Numpy_-_Colaboratory.html)
+* [**Библиотека Pandas** (в pdf)](ipynb/pandas)
+* [**Чтение и запись данных. Часть 1**](ipynb/read_and_write_data1/jun_anl_read_data1.ipynb)
+    * [Лекции А.Джумурата. Часть 1](ipynb/read_and_write_data1/jun_anl_read_data1_dzhu.ipynb)
+* [**Чтение и запись данных. Часть 2**](ipynb/read_and_write_data2/jun_anl_read_data2.ipynb)
+    * [Лекции А.Джумурата. Часть 2](ipynb/read_and_write_data2/jun_anl_read_data2_dzhu.ipynb)
+* [**Работа со строками (регулярки)**](ipynb/regex_and_strings/jun_anl_string.ipynb)
 ### **Дополнительные материалы**
 * [Python.org рекомендует: Программирование для НЕпрограммистов](https://m.habr.com/ru/company/skillfactory/blog/480898/)
 * Курсы на Stepik
@@ -15,7 +35,8 @@
 * Сайты для тренировок:
   * [Codewars: Achieve mastery through challenge](https://www.codewars.com/)
   * [CheckiO - coding games and programming challenges](https://checkio.org/)
-* [Конспект по модулям - «Основы Python» by Andrew](ipynb/DS_01_analytics_basic_python.ipynb)
+* [Конспект по модулям - «Основы Python» by Andrew (Старый. Перенесено (см. выше))](ipynb/DS_01_analytics_basic_python.ipynb)
+* [Крутые полезняшки!](ipynb/addons)
 
 ### Module 4 - Основы Python: базовые структуры данных
 Входе занятия происходит знакомство с проверкой типов данных, для проверки является ли строка числом\цифрами в python есть несколько различных методов. Статья описывающая подробности [Python’s str.isdigit vs. str.isnumeric](https://lerner.co.il/2019/02/17/pythons-str-isdigit-vs-str-isnumeric/)
