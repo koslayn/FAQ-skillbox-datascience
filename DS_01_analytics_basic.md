@@ -5,7 +5,7 @@
 
 ## <a id='basic'></a>**Основы Python. Module 1-9**
 ### Конспекты лекций
-* [**Введение в Data Science (Data Analysis & Machine Learning**](ipynb/jun_anl_intro.ipynb)
+* [**Введение в Data Science (Data Analysis & Machine Learning**](ipynb/intro/jun_anl_intro.ipynb)
 * [**Основы Python**](ipynb/python_basics)
     <details>
     <summary>Весь python в одном ноутбуке</summary>
