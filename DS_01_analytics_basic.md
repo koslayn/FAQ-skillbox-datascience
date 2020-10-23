@@ -93,6 +93,11 @@ ax.set_ylabel("Процент от общего числа")
 * [Учебник - справочник по библиотеке](https://pyprog.pro)\
 * [Практическое пособие по Matplotlib - дополняется](https://github.com/koslayn/datascience/blob/master/Matplotlib.book.ipynb)
 
+При выполнении домашнего задания вам может помочь интересная функция pandas:
+* `pandas.Series.str.startswith` - [документация](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.str.startswith.html) - позволяет фильтровать значения.
+
+Также проблемы могут быть с тем что у вас получились не удачные датафреймы для визуализации. Чтобы было проще строить графики Данные в ДФ должны быть представлены в форме `Long-form (tidy)` - т.е. в столбце с категориями повторяются значения. Вот здесь подробно описано что эта форма из себя предствляет - [Long-form vs. wide-form data](https://seaborn.pydata.org/tutorial/data_structure.html)
+
 ### <a id='m16'></a>Module 16 - Чтение и запись данных. Часть 1
 
 #### **Проблемы в модуле**
