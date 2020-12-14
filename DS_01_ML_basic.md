@@ -154,3 +154,24 @@ LogisticRegressionCV - аналог GridSearchCV, важные параметр�
 <img src='img/python_3-8-5.png'>  
 </details>
 
+## Module 10. Знакомство с Kaggle
+
+Где брать `train.csv`, `test.csv` ?
+* c [Kaggle](https://www.kaggle.com/c/titanic/data)
+
+Ноутбук, который предлагают просомтреить на `Kaggle` выполнен на сарой версии библиотеки и скорее всего запустить его не получится на вашей локальной машине.
+
+Чтобы он работал, можно скорректировать его (закоментированы строки, которые изменяются в блокноте):
+
+```python
+# from sklearn.cross_validation import KFold
+from sklearn.model_selection import KFold
+...
+# kf = KFold(ntrain, n_folds= NFOLDS, random_state=SEED)
+kf = KFold(n_splits=NFOLDS, random_state=SEED)
+...
+# for i, (train_index, test_index) in enumerate(kf):
+for i, (train_index, test_index) in enumerate(kf.split(np.arange(ntrain))):
+...
+```
+
