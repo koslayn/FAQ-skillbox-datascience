@@ -7,6 +7,7 @@
 * [Основы математики для Data Science](DS_01_math.md)
 * [Data Scientist. ML. Начальный уровень](DS_01_ML_basic.md)
 * [Курсовые работы - Аналитика и ML](DS_Course_Works.md)
+* [Data Scientist. Аналитика. Средний уровень](DS_02_analytics_Mid.md)
 
 Не официальный FAQ по курсу Data Science
 **Создан для:**
