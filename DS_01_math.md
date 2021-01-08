@@ -4,6 +4,7 @@
 ### Теория
 * [Производная функции, заданной неявно.
 Производная параметрически заданной функции](http://mathprofi.ru/proizvodnye_neyavnoi_parametricheskoi_funkcii.html)  
+* [Справочный материал по математике, геометрии и физике](http://ru.solverbook.com/spravochnik/) 
   
 ### Математика и Python
 * Курсы на Stepik
